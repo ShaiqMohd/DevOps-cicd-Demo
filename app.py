@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.routr("/")
+@app.route("/")
 def home():
     return "Hello from my CI/CD pipeline!  Build:v1"
 
